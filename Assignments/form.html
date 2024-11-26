@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>credentials</title>
+    <link rel="stylesheet" href="form.css" />
+  </head>
+  <body>
+    <h1 id="heading">Fillup the form to Contact</h1>
+    <main>
+      <form class="Mainform" method="post" action="">
+        <div class="form" id="contact">
+          <div class="flexChild">
+            <label>First Name:</label>
+            <input type="text" placeholder="Name" id="Name" />
+          </div>
+
+          <div class="flexChild">
+            <label>Last Name:</label>
+            <input type="text" placeholder="Surname" id="Surname" />
+          </div>
+
+          <div class="flexChild">
+            <label>Country/Region:</label>
+            <select name="country" id="nameCountry">
+              <option value="Africa">Africa</option>
+              <option value="belgium">Belgium</option>
+              <option value="canada">Canada</option>
+              <option value="np">Nepal</option>
+              <option value="usa">United States</option>
+              <option value="uk">United Kingdom</option>
+              <option value="bharat">India</option>
+            </select>
+          </div>
+
+          <div class="flexChild">
+            <label>Street Address:</label>
+            <input
+              type="text"
+              name="Addre"
+              id="address"
+              placeholder="Address 1"
+            />
+          </div>
+
+          <div class="flexChild">
+            <label>Street Address 2:</label>
+            <input
+              type="text"
+              name="Addre"
+              id="address2"
+              placeholder="Address 2"
+            />
+          </div>
+
+          <div class="flexChild">
+            <label>City:</label>
+            <input id="city" type="text" placeholder="City" />
+          </div>
+
+          <div class="flexChild">
+            <label>State/Province:</label>
+            <select name="province" id="state">
+              <option>Koshi</option>
+              <option>Madhesh</option>
+              <option>Bagmati</option>
+              <option>Gandaki</option>
+              <option>Lumbini</option>
+              <option>Karnali</option>
+              <option>Sudurpashchim</option>
+            </select>
+          </div>
+
+          <div class="flexChild">
+            <label>Email Id:</label>
+            <input id="email" type="Email" placeholder="Email" />
+          </div>
+
+          <div class="flexChild">
+            <label>Contact no:</label>
+            <input
+              type="tel"
+              name="num"
+              id="contacts"
+              placeholder="Contact Num"
+            />
+          </div>
+          <div class="flexChild">
+            <label id="sex" for="mle">Sex:</label>
+            <div class="mle">
+              <input type="radio" id="male" value="Male" name="Gender" />
+              <label id="Lmale" for="male">Male</label>
+            </div>
+
+            <div class="fmle">
+              <input type="radio" id="female" value="Female" name="Gender" />
+              <label id="Lfemale" for="female">female</label>
+            </div>
+            <div class="othr">
+              <input type="radio" id="other" value="Other" name="Gender" />
+              <label id="Lother" for="other">Others</label>
+            </div>
+          </div>
+          <div class="flexChild">
+            <a href="Assignment_1.html"
+              ><button id="submit" type="button">Submit</button></a
+            >
+          </div>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>

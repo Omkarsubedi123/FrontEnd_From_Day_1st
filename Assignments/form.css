@@ -1,0 +1,171 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+#heading {
+  text-align: center;
+  padding-top: 10px;
+  color: aquamarine;
+}
+.Mainform {
+  margin: 20px;
+  padding: 20px;
+  font-size: 20px;
+  color: bisque;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.flexChild {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10rem;
+}
+#Name {
+  margin-left: 150px;
+  border: 3px solid antiquewhite;
+  border-radius: 20px;
+  text-align: center;
+  height: 40px;
+  width: 450px;
+  color: coral;
+  font-size: 17px;
+}
+#Surname {
+  margin-left: 150px;
+  border: 3px solid antiquewhite;
+  border-radius: 20px;
+  text-align: center;
+  height: 40px;
+  width: 450px;
+  margin-block-start: 15px;
+  color: coral;
+  font-size: 17px;
+}
+#nameCountry {
+  margin-left: 110px;
+  border: 3px solid antiquewhite;
+  border-radius: 20px;
+  text-align: center;
+  height: 40px;
+  width: 450px;
+  margin-block-start: 15px;
+  color: coral;
+  font-size: 17px;
+}
+#address {
+  margin-left: 124px;
+  border: 3px solid antiquewhite;
+  border-radius: 20px;
+  text-align: center;
+  height: 40px;
+  width: 450px;
+  margin-block-start: 15px;
+  color: coral;
+  font-size: 17px;
+}
+#address2 {
+  margin-left: 110px;
+  border: 3px solid antiquewhite;
+  border-radius: 20px;
+  text-align: center;
+  height: 40px;
+  width: 450px;
+  margin-block-start: 15px;
+  color: coral;
+  font-size: 17px;
+}
+#city {
+  margin-left: 208px;
+  border: 3px solid antiquewhite;
+  border-radius: 20px;
+  text-align: center;
+  height: 40px;
+  width: 450px;
+  margin-block-start: 15px;
+  color: coral;
+  font-size: 17px;
+}
+#state {
+  margin-left: 126px;
+  border: 3px solid antiquewhite;
+  border-radius: 20px;
+  text-align: center;
+  height: 40px;
+  width: 450px;
+  margin-block-start: 15px;
+  color: coral;
+  font-size: 17px;
+}
+#email {
+  margin-left: 172px;
+  border: 3px solid antiquewhite;
+  border-radius: 20px;
+  text-align: center;
+  height: 40px;
+  width: 450px;
+  margin-block-start: 15px;
+  color: coral;
+  font-size: 17px;
+}
+#contacts {
+  margin-left: 155px;
+  height: 40px;
+  width: 450px;
+  border-radius: 20px;
+  border: 3px solid antiquewhite;
+  margin-block-start: 15px;
+  text-align: center;
+  color: coral;
+  font-size: 17px;
+}
+.mle {
+  /* display: flex; */
+  /* justify-content: center; */
+  margin-block-start: 10px;
+  padding-left: 260px;
+}
+#Lmale {
+  margin-left: 10px;
+}
+.fmle {
+  /* display: flex; */
+  /* justify-content: center; */
+  padding-left: 260px;
+  margin-block-start: 10px;
+}
+#Lfemale {
+  margin-left: 10px;
+}
+.othr {
+  /* display: flex; */
+  /* justify-content: center; */
+  padding-left: 260px;
+  margin-block-start: 10px;
+}
+#Lother {
+  margin-left: 10px;
+}
+.submit {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+#submit {
+  height: 30px;
+  width: 160px;
+  border-radius: 50px;
+  font-size: 18px;
+  border: 3px solid wheat;
+  color: red;
+}
+#submit:hover {
+  background-color: red;
+  color: blanchedalmond;
+  border-color: blue;
+  height: 40px;
+  width: 200px;
+}

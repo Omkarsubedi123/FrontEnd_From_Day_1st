@@ -1,0 +1,28 @@
+body {
+  background-color: black;
+}
+#virat {
+  height: 320px;
+  width: 450px;
+}
+.rishav {
+  height: 350px;
+  width: 450px;
+}
+#kuldip {
+  height: 350px;
+  width: 450px;
+}
+h2 {
+  color: red;
+  font-weight: bolder;
+  font-size: 25px;
+}
+p {
+  color: azure;
+  font-size: 18px;
+  text-align: justify;
+}
+.names {
+  color: brown;
+}
